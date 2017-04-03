@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <link rel="stylesheet" type="text/css" href="css/jquery.mobile.css" />
+    <link rel="stylesheet" type="text/css" href="css/jquery.mobile.theme.css" />
+	<link rel="stylesheet" type="text/css" href="css/estil.css" />
+
+</head>
+	<body>
+
+		
+
+
+	<div class = "app">
+		
+		<div data-role="page">
+		
+			
+			<div data-role="header" id = "cabecera">
+			
+				<div> 
+					<h3>Mapa</h3>
+				</div>
+	
+			</div>
+			<div data-role="content">
+			
+				<div>
+
+				<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2988.3694058160095!2d2.1441383154986533!3d41.49626897925435!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2zNDHCsDI5JzQ2LjYiTiAywrAwOCc0Ni44IkU!5e0!3m2!1ses!2ses!4v1491237873499" width="600" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>
+				</div>
+				<div>
+					<div>
+						<h4 id="nombre"> Sergi Campos</h4>
+						<p name = "respuesta" id="telef">
+							<b >Telf: </b> 662346157
+						</p>
+						<p id = "direc">
+							<b >Direccion: </b> C/ Mancomunitat n7
+						</p>
+						<p id = "gps">
+							<b>GPS: </b> 41 30 25.4 N 1 48 48.0 E
+						</p>
+
+					</div>
+				</div>
+				
+				<div>
+					<div id = "abrir"> 
+
+						<button type="button" style="outline: none; class="ui-btn ui-btn-inline" onClick="location.href='index.html'">Abrir en Maps</button>
+			
+					</div>
+					<div id = "cerrar"> 
+						<button type="button" style="outline: none;  class="ui-btn ui-btn-inline" onClick="location.href='index.html'">Cerrar</button>
+			
+					</div>
+				</div>
+				
+				
+			
+			
+			</div>
+		</div>	
+	</div>
+		
+    <script type="text/javascript" src="cordova.js"></script>
+    <script type="text/javascript" src="js/jquery.js"></script>
+    <script type="text/javascript" src="js/jquery.mobile.js"></script>
+    <script type="text/javascript" src="js/index.js"></script>
+    <script type="text/javascript">
+    </script>
+</body>
+</html>
